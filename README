@@ -1,0 +1,4 @@
+complier Elo.h Elo.cpp main.cpp by g++:
+$make
+
+You will get a file named Elo.
