@@ -18,7 +18,7 @@ int main()
 	Elo obj(K, Ra, Rb);
 	ofstream fileout("file.out",ios::out);
 	fileout<<obj.getRa()<<"\t"<<obj.getRb()<<endl;	
-	while (filein!='\0'){
+//	while (filein!='\0'){
 		while(filein >>Sa){		
    			//cin >> Sa;
     		obj.setRealScore(Sa);
@@ -26,7 +26,7 @@ int main()
     		fileout<<obj.getRa()<<"\t"<<obj.getRb()<<endl;
   			++i;
 		}
-	}
+//	}
     return 0;
 }
 
